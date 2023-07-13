@@ -1,0 +1,13 @@
+<!-- <h1>Como fue mi papa</h1>
+<p>Que te fumas y tan!</p>
+<button type="button" class="btn btn-outline-warning" >Warning</button> -->
+
+<div 
+    class="card"
+    *ngFor = "let item of data "
+>
+    <h1>{{item.title}}</h1>
+    <p>{{item.content}}</p>
+    <button type="button" class="btn btn-primary btn-lg" >{{item.buttom}}</button>
+
+</div>
