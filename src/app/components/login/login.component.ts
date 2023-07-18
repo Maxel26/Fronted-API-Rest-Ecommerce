@@ -36,6 +36,6 @@ export class LoginComponent {
     console.group('loginForm');
     console.info(this.loginForm.value);
     console.info(this.loginForm.valid);
-    console.groupEnd(); 
+    console.groupEnd();                      
   }
 }
